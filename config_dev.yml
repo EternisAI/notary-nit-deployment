@@ -29,3 +29,7 @@ logging:
 authorization:
   enabled: false
   whitelist-csv-path: "/app/fixture/auth/whitelist.csv"
+
+provider:
+  url: "https://notary-provider.s3.us-east-1.amazonaws.com/provider-example.json"
+  schema-url: "https://notary-provider.s3.us-east-1.amazonaws.com/provider-schema.json"
